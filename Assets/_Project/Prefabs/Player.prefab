@@ -8,6 +8,26 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -5420972967024724928, guid: 235a47ea14be22143a6bf3d28ff7acf1, type: 3}
+      propertyPath: AuthorityMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -5420972967024724928, guid: 235a47ea14be22143a6bf3d28ff7acf1, type: 3}
+      propertyPath: RotAngleThreshold
+      value: 196
+      objectReference: {fileID: 0}
+    - target: {fileID: 290541700102468498, guid: 235a47ea14be22143a6bf3d28ff7acf1, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.58517
+      objectReference: {fileID: 0}
+    - target: {fileID: 290541700102468498, guid: 235a47ea14be22143a6bf3d28ff7acf1, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.14869
+      objectReference: {fileID: 0}
+    - target: {fileID: 290541700102468498, guid: 235a47ea14be22143a6bf3d28ff7acf1, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1483283516260071479, guid: 235a47ea14be22143a6bf3d28ff7acf1, type: 3}
       propertyPath: m_Name
       value: Player
@@ -15,6 +35,10 @@ PrefabInstance:
     - target: {fileID: 1483283516260071479, guid: 235a47ea14be22143a6bf3d28ff7acf1, type: 3}
       propertyPath: m_Layer
       value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4682955644430375690, guid: 235a47ea14be22143a6bf3d28ff7acf1, type: 3}
+      propertyPath: spawnPoints.Array.size
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5130135730727713922, guid: 235a47ea14be22143a6bf3d28ff7acf1, type: 3}
       propertyPath: m_LocalScale.x
@@ -68,171 +92,46 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 6041464924688113227, guid: 235a47ea14be22143a6bf3d28ff7acf1, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 3524154067
+      objectReference: {fileID: 0}
+    - target: {fileID: 6041464924688113227, guid: 235a47ea14be22143a6bf3d28ff7acf1, type: 3}
+      propertyPath: InScenePlacedSourceGlobalObjectIdHash
+      value: 3524154067
+      objectReference: {fileID: 0}
+    - target: {fileID: 6317564122431256359, guid: 235a47ea14be22143a6bf3d28ff7acf1, type: 3}
+      propertyPath: m_Name
+      value: Player
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 335738783804862043, guid: 235a47ea14be22143a6bf3d28ff7acf1, type: 3}
+    - {fileID: 5900841844602241867, guid: 235a47ea14be22143a6bf3d28ff7acf1, type: 3}
+    - {fileID: 7115235014539150287, guid: 235a47ea14be22143a6bf3d28ff7acf1, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 1483283516260071479, guid: 235a47ea14be22143a6bf3d28ff7acf1, type: 3}
+    - targetCorrespondingSourceObject: {fileID: 6317564122431256359, guid: 235a47ea14be22143a6bf3d28ff7acf1, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 3381006779110413503}
-    - targetCorrespondingSourceObject: {fileID: 1483283516260071479, guid: 235a47ea14be22143a6bf3d28ff7acf1, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 335738783804862043}
-    - targetCorrespondingSourceObject: {fileID: 1483283516260071479, guid: 235a47ea14be22143a6bf3d28ff7acf1, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 5900841844602241867}
-    - targetCorrespondingSourceObject: {fileID: 1483283516260071479, guid: 235a47ea14be22143a6bf3d28ff7acf1, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 389586545707782246}
-    - targetCorrespondingSourceObject: {fileID: 1483283516260071479, guid: 235a47ea14be22143a6bf3d28ff7acf1, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: -2669294391660738109}
-    - targetCorrespondingSourceObject: {fileID: 1483283516260071479, guid: 235a47ea14be22143a6bf3d28ff7acf1, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: -5420972967024724928}
+      addedObject: {fileID: 6720728759625413218}
   m_SourcePrefab: {fileID: 100100000, guid: 235a47ea14be22143a6bf3d28ff7acf1, type: 3}
---- !u!1 &6317564122431256359 stripped
+--- !u!1 &1483283516260071479 stripped
 GameObject:
-  m_CorrespondingSourceObject: {fileID: 1483283516260071479, guid: 235a47ea14be22143a6bf3d28ff7acf1, type: 3}
+  m_CorrespondingSourceObject: {fileID: 6317564122431256359, guid: 235a47ea14be22143a6bf3d28ff7acf1, type: 3}
   m_PrefabInstance: {fileID: 4844133115542359824}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &3381006779110413503
+--- !u!114 &6720728759625413218
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6317564122431256359}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 93966ca369c381c499e06616129775b5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  maxHealth: 100
-  damagePerHit: 20
-  healthBar: {fileID: 0}
---- !u!114 &335738783804862043
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6317564122431256359}
+  m_GameObject: {fileID: 1483283516260071479}
   m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b43d1f052b5459647844cc3fd6b97983, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveSpeed: 5
-  jumpForce: 7
-  attackRange: 0.5
-  attackRadius: 0.2
-  attackDamage: 10
-  targetLayer:
-    serializedVersion: 2
-    m_Bits: 256
-  deathY: -5
-  fallDamage: 9999
-  spawnPoint: {fileID: 0}
-  respawnDelay: 2
---- !u!114 &5900841844602241867
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6317564122431256359}
-  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b45911e8a2a7ac848ad11587ebe8e4ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   spawnPoint: {fileID: 0}
-  respawnDelay: 0.1
-  deathAnimTime: 0.2
---- !u!114 &389586545707782246
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6317564122431256359}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 31755d28e31c5db4088af171dc4c05ce, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speedParam: Speed
-  facingParam: FacingRight
-  zeroSpeedThreshold: 0.01
---- !u!114 &-2669294391660738109
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6317564122431256359}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  GlobalObjectIdHash: 25344582
-  InScenePlacedSourceGlobalObjectIdHash: 0
-  DeferredDespawnTick: 0
-  Ownership: 1
-  AlwaysReplicateAsRoot: 0
-  SynchronizeTransform: 1
-  ActiveSceneSynchronization: 0
-  SceneMigrationSynchronization: 1
-  SpawnWithObservers: 1
-  DontDestroyWithOwner: 0
-  AutoObjectParentSync: 1
-  SyncOwnerTransformWhenParented: 1
-  AllowOwnerToParent: 0
---- !u!114 &-5420972967024724928
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6317564122431256359}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e96cb6065543e43c4a752faaa1468eb1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ShowTopMostFoldoutHeaderGroup: 1
-  NetworkTransformExpanded: 0
-  AutoOwnerAuthorityTickOffset: 1
-  PositionInterpolationType: 0
-  RotationInterpolationType: 0
-  ScaleInterpolationType: 0
-  PositionLerpSmoothing: 1
-  PositionMaxInterpolationTime: 0.1
-  RotationLerpSmoothing: 1
-  RotationMaxInterpolationTime: 0.1
-  ScaleLerpSmoothing: 1
-  ScaleMaxInterpolationTime: 0.1
-  AuthorityMode: 0
-  TickSyncChildren: 0
-  UseUnreliableDeltas: 0
-  SyncPositionX: 1
-  SyncPositionY: 1
-  SyncPositionZ: 1
-  SyncRotAngleX: 1
-  SyncRotAngleY: 1
-  SyncRotAngleZ: 1
-  SyncScaleX: 1
-  SyncScaleY: 1
-  SyncScaleZ: 1
-  PositionThreshold: 0.001
-  RotAngleThreshold: 0.01
-  ScaleThreshold: 0.01
-  UseQuaternionSynchronization: 0
-  UseQuaternionCompression: 0
-  UseHalfFloatPrecision: 0
-  InLocalSpace: 0
-  SwitchTransformSpaceWhenParented: 0
-  Interpolate: 1
-  SlerpPosition: 0
+  respawnDelay: 2
+  deathAnimTime: 1.5

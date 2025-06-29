@@ -4,8 +4,8 @@ using UnityEngine;
 public class PlayerFallDeath : MonoBehaviour
 {
     [Header("Fall Death")]
-    public float deathY = -10f;          // poniżej tej linii umiera
-    public int   fallDamage = 9999;      // równy lub większy niż maxHealth
+    public float deathY = -10f;          // dead line
+    public int fallDamage = 9999;      // obrazenia z upadku
 
     private Health health;
 
@@ -21,7 +21,7 @@ public class PlayerFallDeath : MonoBehaviour
         if (transform.position.y < deathY && health != null)
         {
             health.TakeDamage(fallDamage);
-            enabled = false;  // wyłączamy, żeby nie wołać wielokrotnie
+            enabled = false;
         }
     }
 }

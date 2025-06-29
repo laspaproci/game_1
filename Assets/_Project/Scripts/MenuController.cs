@@ -15,8 +15,7 @@ public class MenuController : MonoBehaviour
 
     public void OnNetworkGamePressed()
     {
-        // Możesz tu ustawić GameMode = Network,  
-        // ...albo uruchomić loader Photon/Mirror itp.  
+ 
         SceneManager.LoadScene(networkSceneName);
     }
 

@@ -6,9 +6,9 @@ public class Health : MonoBehaviour
 {
     public int maxHealth = 100;
     public int damagePerHit = 20;
-    public HealthBar healthBar;     // referencja do UI
+    public HealthBar healthBar;     
 
-    // Event, który informuje o śmierci (respawn)
+    // informacja o śmierci 
     public delegate void DeathHandler();
     public event DeathHandler OnDeath;
 
@@ -48,14 +48,13 @@ public class Health : MonoBehaviour
 
     private IEnumerator DisableAfterDeath()
     {
-        // czekaj na animację śmierci
+      
         yield return new WaitForSeconds(1.5f);
-        //gameObject.SetActive(false);
+    
     }
 
-    /// <summary>
-    /// Przywraca życie do maxHealth i resetuje Animatora.
-    /// </summary>
+    // Przywraca życie do maxHealth i resetuje Animatora.
+    
     public void ResetHealth()
     {
         isDead        = false;

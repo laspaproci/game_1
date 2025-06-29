@@ -14,7 +14,7 @@ public class IdleFlipper : MonoBehaviour
 
     void Update()
     {
-        // Flipuj tylko kiedy jesteśmy w stanie Idle (Speed == 0)
+        //flip
         if (Mathf.Approximately(animator.GetFloat("Speed"), 0f))
         {
             bool right = animator.GetBool("FacingRight");

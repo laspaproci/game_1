@@ -1,6 +1,7 @@
 using System.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem;
+//sterowanie player 2 lokalnie
 
 [RequireComponent(typeof(Rigidbody2D), typeof(Animator), typeof(Health))]
 public class Player2InputSystem : MonoBehaviour
@@ -47,12 +48,11 @@ private void Awake()
     animator  = GetComponent<Animator>();
     health    = GetComponent<Health>();
 
-    // 1) Upewniamy się, że bazowa skala jest dodatnia...
     Vector3 startScale = transform.localScale;
     startScale.x = Mathf.Abs(startScale.x);
-    // 2) ...a potem ODWRACAMY ją, bo prefab Player2 był lustrzanym odbiciem
+  
     startScale.x *= -1f;
-    // 3) Nadpisujemy obiekt i zapisujemy baseScale
+    
     transform.localScale = startScale;
     baseScale = transform.localScale;
 
